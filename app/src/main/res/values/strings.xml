@@ -66,5 +66,7 @@
     <string name="name">NAME:</string>
     <string name="country">Country:</string>
     <string name="state">STATE:</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="email_score">email score</string>
 
 </resources>

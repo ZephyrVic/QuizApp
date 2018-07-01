@@ -37,5 +37,26 @@
         android:background="#B2DFDB"
         android:textColor="#B71C1C"
         />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:text="@string/email_score"
+            android:textSize="20sp"
+            android:onClick="composeEmail"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="@string/restart_quiz"
+            android:textSize="20sp"
+            android:onClick="restartQuiz"/>
+    </RelativeLayout>
 
 </LinearLayout>
